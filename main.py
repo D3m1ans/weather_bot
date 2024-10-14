@@ -2,8 +2,8 @@ import json
 import requests
 import telebot
 
-bot = telebot.TeleBot('5889143649:AAEZDxqe8vTcd46zxEps4Tp5wqnLaMmjmag')
-API = 'b1d12b01e343f1c3941a7e242c6c57c5'
+bot = telebot.TeleBot(BotToken)
+API = WeatherApi
 
 @bot.message_handler(commands=['start'])
 def start(message):
